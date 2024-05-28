@@ -23,9 +23,13 @@
     src: url('assets/fonts/CormorantGaramond-BoldItalic.ttf');
 }
 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 h1{
     font-family: 'Cormorant-Bold';
     font-size: 48px;
+    font-weight: 10;
     color: #2C75D6;
   }
 
@@ -39,15 +43,15 @@ h3{
     font-family: 'aileron', sans-serif;
     font-style: normal;
     font-weight: 350;
-    font-size: 18px;
+    font-size: 20px;
     color: #2C75D6;
 }
 
 p {
     font-family: 'aileron', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .main-color{

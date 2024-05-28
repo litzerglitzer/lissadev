@@ -6,10 +6,13 @@
 
 .background-cream{
     background-color: #EBEAE6;
+    background-size: cover;
+    
 }
 
 .background-dark{
     background-color: #2B2B2A;
+    background-size: cover;
 }
 
 .box {
@@ -18,12 +21,17 @@
     flex-direction: column; /* Stapelt den Inhalt vertikal */
     text-align: center;
     position: relative;
-    height: 100%; /* Stellt sicher, dass die Box die volle Höhe des Containers einnimmt */
     box-sizing: border-box;
     justify-items: center;
+    justify-content: center;
+    padding: 100px;  
+}
+
+.img{ 
+    align-self: center;
 }
 
 .font-width{
-    width: 40%;
+    width: 50%;
     align-self: center;
 }
