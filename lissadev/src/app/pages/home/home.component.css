@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content:center; /* Center the items */
+    box-sizing: border-box;
+}
+
+.background-cream{
+    background-color: #EBEAE6;
+}
+
+.background-dark{
+    background-color: #2B2B2A;
+}
+
+.box {
+    flex: 1; /* Nimmt gleichen Platz ein */
+    display: flex;
+    flex-direction: column; /* Stapelt den Inhalt vertikal */
+    text-align: center;
+    position: relative;
+    height: 100%; /* Stellt sicher, dass die Box die volle Höhe des Containers einnimmt */
+    box-sizing: border-box;
+    justify-items: center;
+}
+
+.font-width{
+    width: 40%;
+    align-self: center;
+}

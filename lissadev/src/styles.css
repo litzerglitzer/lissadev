@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'aileron';
+    src: url(https://use.typekit.net/ued3xfo.css);
+}
+
+@font-face {
+    font-family: 'Cormorant-Italic';
+    src: url('assets/fonts/Cormorant-Italic-VariableFont_wght.ttf');
+  }
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/Cormorant-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Cormorant-Bold';
+    src: url('assets/fonts/CormorantGaramond-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Cormorant-BoldItalic';
+    src: url('assets/fonts/CormorantGaramond-BoldItalic.ttf');
+}
+
+h1{
+    font-family: 'Cormorant-Bold';
+    font-size: 48px;
+    color: #2C75D6;
+  }
+
+h1-italic{
+    font-family:'Cormorant-BoldItalic';
+    color: #2C75D6;
+    font-size: 48px;
+}
+
+h3{
+    font-family: 'aileron', sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    color: #2C75D6;
+}
+
+p {
+    font-family: 'aileron', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.main-color{
+    color: #2C75D6;
+}
