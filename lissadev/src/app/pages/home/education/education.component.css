@@ -1,0 +1,10 @@
+.box {
+    text-align: start;
+}
+
+.img-shape {
+    background-image: url('/assets/img/shapes1.png');
+    background-size: 250px;
+    background-position: 108%;
+    background-repeat: no-repeat;
+}
