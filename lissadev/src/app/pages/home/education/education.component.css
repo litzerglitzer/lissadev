@@ -5,6 +5,36 @@
 .img-shape {
     background-image: url('/assets/img/shapes1.png');
     background-size: 250px;
-    background-position: 108%;
+    background-position: 103%;
     background-repeat: no-repeat;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ 
+ }
+
+ /* Small devices (tablets, 768px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .container {
+        
+        display:grid;
+    }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    .img-shape{
+        background-position: 150%;
+    }
+
+    .box {
+        padding-bottom: 5px;
+    }
 }

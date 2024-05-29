@@ -59,9 +59,10 @@ p {
 }
 
 .container{
-    display: flex;
+    display:flex;
     justify-content:center; /* Center the items */
     box-sizing: border-box;
+    flex-direction: row;
 }
 
 .background-cream{
@@ -85,4 +86,10 @@ p {
     justify-items: center;
     justify-content: center;
     padding: 100px;  
+}
+
+@media (max-width: 575.98px) { 
+    .container {
+        display:grid;
+    }
 }
