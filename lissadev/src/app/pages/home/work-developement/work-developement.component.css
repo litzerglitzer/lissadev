@@ -1,0 +1,36 @@
+.box {
+    text-align: start; 
+}
+
+.middle-box{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-overview{
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+.img-mobile{
+    width: 200px;
+    height: auto;
+    transform: translateX(30px);  
+}
+
+.img-mobile-small{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+}
+
+.center{
+    align-items: center;
+}
+
+
+.row{
+    flex-direction:row;  
+    align-items: center; /* Center items horizontally */
+}
