@@ -23,9 +23,6 @@
     src: url('assets/fonts/CormorantGaramond-BoldItalic.ttf');
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
 h1{
     font-family: 'Cormorant-Bold';
     font-size: 48px;
@@ -54,15 +51,32 @@ p {
     font-size: 14px;
 }
 
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
 .main-color{
     color: #2C75D6;
 }
 
 .container{
     display:flex;
-    justify-content:center;
-    box-sizing: border-box;
-    flex-direction: row;
+    /*justify-content:center;
+    /*box-sizing: border-box;
+    flex-direction: row; */
+    
+}
+
+.inner-container{
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
 }
 
 .background-cream{
@@ -85,7 +99,9 @@ p {
     box-sizing: border-box;
     justify-items: center;
     justify-content: center;
-    padding: 100px;  
+    padding: 80px;  
+    width: 100%;
+
 }
 
 .font-fadeIn {
@@ -102,5 +118,26 @@ p {
 @media (max-width: 575.98px) { 
     .container {
         display:grid;
+    }
+
+    .box {
+        padding: 65px;
+    }
+
+    .inner-container{
+        flex-direction: column;
+        
+        
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container {
+        justify-content: center;
+    }
+
+    .box{
+        padding: 50px;
     }
 }

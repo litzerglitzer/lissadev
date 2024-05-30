@@ -1,10 +1,14 @@
+.box {
+    padding: 100px;
+}
+
 .img{ 
     align-self: center;
     width: 250px;
 }
 
 .font-width{
-    width: 50%;
+    width: 350px;
     align-self: center;
 }
 
