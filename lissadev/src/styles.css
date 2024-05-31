@@ -91,7 +91,7 @@ body {
 }
 
 .box {
-    flex: 1; /* Nimmt gleichen Platz ein */
+    flex: 1;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -111,10 +111,11 @@ body {
 
 @keyframes fadeIn {
     to {
-        opacity: 1; /* End state of the animation */
+        opacity: 1; 
     }
 }
 
+/* Very Small devices */
 @media (max-width: 575.98px) { 
     .container {
         display:grid;
