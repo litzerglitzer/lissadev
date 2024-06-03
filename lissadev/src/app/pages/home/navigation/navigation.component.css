@@ -7,3 +7,54 @@
 .img{
     width: 300px;
 }
+
+.slideInLeft {
+    animation-name: slideInLeft;
+    animation: slideInLeft 0.7s ease-in-out;
+}
+
+.slideInDown {
+    animation-name: slideInDown;
+    animation: slideInDown 0.7s ease-in-out;
+}
+
+.slideInRight {
+    animation-name: slideInRight;
+    animation: slideInRight 0.7s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
