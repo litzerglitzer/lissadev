@@ -1,5 +1,8 @@
+
+
 .box {
     padding: 100px;
+    margin: 0px;
 }
 
 .img{ 
@@ -8,10 +11,10 @@
 }
 
 .font-width{
-    width: 350px;
+    width: 300px;
     align-self: center;
+    padding: 10px;
 }
-
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 

@@ -74,7 +74,7 @@ body {
 .inner-container{
     display: flex;
     align-items: center;
-    max-width: 1600px;
+    max-width: 1500px;
     width: 100%;
     margin: auto;
 }
@@ -101,13 +101,32 @@ body {
     justify-content: center;
     padding: 80px;  
     width: 100%;
-
 }
 
 .font-fadeIn {
     opacity: 0; 
     animation: fadeIn 2s ease-in forwards; 
 }
+
+.tags{
+    
+    font-size: 14px;
+    color: #FFFF;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #2C75D6;
+    opacity: 0.7;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 12px;
+    text-decoration: none;
+    width: fit-content;
+    line-height: 250%;
+  }
+
+  .tags:hover{
+    opacity: 1.0;
+  }
 
 @keyframes fadeIn {
     to {

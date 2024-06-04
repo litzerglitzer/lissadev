@@ -14,9 +14,16 @@
             Frontend-Developer / Photographer
         </h3>
 
-        <div class="main-color font-width font-fadeIn">
+        <div class="main-color font-fadeIn font-width">
             <p>Die Verbindung zwischen technischer Implementierung, guter User Experience und User Interface sind meine Leidenschaft. 
             Ich bin sowohl Geek, als auch kreativ und liebe es, diesen beide Aspekte zu verbinden.</p>
         </div>
+
+        <div class="font-width font-fadeIn">
+            <span class="tags" *ngFor="let skill of skills">
+                {{skill}} 
+            </span>
+        </div>
+        
     </div>
 </div>
