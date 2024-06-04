@@ -48,7 +48,7 @@ p {
     font-family: 'aileron', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 html, body { 
@@ -86,7 +86,7 @@ body {
 }
 
 .background-dark{
-    background-color: #2B2B2A;
+    background-color: #343433;
     background-size: cover;
 }
 
@@ -111,10 +111,8 @@ body {
 .tags{
     
     font-size: 14px;
-    color: #FFFF;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #2C75D6;
+    color: #2C75D6;
+    font-style:normal;
     opacity: 0.7;
     margin: 5px;
     padding: 6px;
@@ -122,6 +120,10 @@ body {
     text-decoration: none;
     width: fit-content;
     line-height: 250%;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 0.1cap;
+    
   }
 
   .tags:hover{
