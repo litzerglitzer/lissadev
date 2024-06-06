@@ -1,0 +1,20 @@
+.box{
+    text-align: end;
+}
+
+.img-overview{
+    width: 300px;
+}
+
+.img-mobile{
+    width: 200px;
+    height: auto;
+    transform: translateX(-30px);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;  
+    align-items: center;
+}

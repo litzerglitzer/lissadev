@@ -1,1 +1,31 @@
-<p>work-photography works!</p>
+<div class="container">
+    <div class="inner-container">
+        <div class="box row">
+            <img class="img-overview" src="/assets/img/stoneandtales.png">
+            <img class="img-mobile" src="/assets/img/stoneandtales-mobile.png">
+        </div>
+        
+        <div class="box main-color padding">
+            <h1>PHOTOGRAPHY</h1>
+            <p>
+                Langjährige Tätigkeit als selbstständige Fotografin.
+                <br>
+                Autodidaktische Aneignen von Fährigkeiten rund um die Selbstständigkeit.
+                https//stoneandtales.com
+                <br>
+            </p>
+
+            <div class="font-width font-fadeIn">
+                <p>Technische Skills:</p>
+                <span class="tags" *ngFor="let skill of skills">
+                    {{skill}} 
+                </span>
+
+                <p>Sonstiges:</p>
+                <span class="tags" *ngFor="let skill of photographerSkills">
+                    {{skill}} 
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

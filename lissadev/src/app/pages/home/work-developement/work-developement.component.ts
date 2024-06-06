@@ -13,11 +13,12 @@ export class WorkDevelopementComponent {
     'Angular',
     'Typescript',
     'Firebase',
-    'NoSQL Database',
-    'Firestore Database',
-    'NoSQL Database',
     'CSS',
-    'Database Architecture',
+    'NoSQL',
+    'Git',
     'HTML',
+    'Database Architecture',
+    'Concept',
+    'UX/UI Design',
   ]
 }

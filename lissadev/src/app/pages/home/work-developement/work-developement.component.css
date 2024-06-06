@@ -25,12 +25,12 @@
     padding: 10px;
 }
 
-.center{
-    align-items: center;
-}
-
 .padding{
     padding-top: 0px;
+}
+
+.tags{
+    border-color: #2C75D6;
 }
 
 
