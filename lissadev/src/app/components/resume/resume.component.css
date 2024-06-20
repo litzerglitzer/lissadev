@@ -1,0 +1,11 @@
+.img{
+    width: 50%;
+    margin: 150px;
+}
+
+.container{
+    justify-items: center;
+    display: grid;
+
+}
+

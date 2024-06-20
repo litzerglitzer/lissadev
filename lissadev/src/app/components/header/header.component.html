@@ -19,7 +19,9 @@
     [cdkConnectedOverlayOpen]="isOpen"
     (detach)="isOpen = false">
     <ul class="nav-items font-fadeIn">
-      <p class="main-color">Lebenslauf</p>
+      <a class="main-color" [routerLink]="['/resume']">
+        <h3>Lebenslauf</h3>
+    </a>
     <br>
     <br>
     <h4>CONTACT</h4>
