@@ -1,0 +1,33 @@
+
+<div class="header">
+    <div class="items">
+        <button class="button"
+                aria-hidden="false" 
+                aria-label="Example home icon"
+                (click)="toggleOverlay()"
+                cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+        <mat-icon class="icon main-color" >
+            {{isOpen ? "close" : "menu"}}
+        </mat-icon>
+        </button>
+  </div>
+</div>
+  <!-- This template displays the overlay content and is connected to the button -->
+  <ng-template
+    cdkConnectedOverlay
+    [cdkConnectedOverlayOrigin]="trigger"
+    [cdkConnectedOverlayOpen]="isOpen"
+    (detach)="isOpen = false">
+    <ul class="nav-items font-fadeIn">
+      <p class="main-color">Lebenslauf</p>
+    <br>
+    <br>
+    <h4>CONTACT</h4>
+    <p>lissaschwarz&#64;yahoo.de</p>
+    <p>+49 1713478652</p>
+      
+
+    </ul>
+  </ng-template>
+  
+  

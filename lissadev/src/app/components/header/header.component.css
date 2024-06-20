@@ -1,0 +1,49 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1000;
+    text-align: end;
+  }
+
+  .icon{
+    transform: scale(1.5);
+    margin: 50px;
+  }
+
+  .button {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    border: 0;
+  }
+
+  .font-fadeIn{
+    animation: fadeIn 0.5s ease-in forwards; 
+  }
+
+  .nav-items {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    padding: 50px;
+    margin: 10px;
+    transform: translateY(-30px);  
+  }
+  
+  .nav-items > li {
+    list-style-type: none;
+    padding: 50px
+  }
+  
+  .nav-items > li:last-child {
+    border-bottom: none;
+  }
+
+  /* Very Small devices */
+@media (max-width: 575.98px) { 
+  .header {
+      position: absolute;
+  }
+}
