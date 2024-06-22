@@ -1,0 +1,11 @@
+.background-black{
+    background-color: black;
+}
+
+@media (max-width: 575.98px) { 
+    .box {
+        padding: 40px;
+        padding-top: 0;
+       
+    }
+}
