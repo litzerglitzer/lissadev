@@ -52,10 +52,18 @@
     }
  }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+
+@media (max-width: 1650px) { 
     .box {
         padding-top: 100px;
+    } 
+
+    .inner-container{
+        flex-direction: column;  
+    }
+
+    .box {
+        padding-top: 10px;
     } 
 }
 
@@ -67,10 +75,6 @@
     .img-mobile-small{
         width: 100px;
     }
-
-    .box {
-        padding-top: 10px;
-    } 
 
     .padding{
         padding-top: 50px;

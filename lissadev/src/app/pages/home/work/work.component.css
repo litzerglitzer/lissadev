@@ -23,6 +23,7 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
    .box {
-       padding-bottom: 5px;
+       padding-bottom: 50px;
+       text-align: left;
    }
 }

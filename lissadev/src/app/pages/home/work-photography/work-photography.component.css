@@ -18,3 +18,26 @@
     flex-direction:row;  
     align-items: center;
 }
+
+
+@media (max-width: 1650px) { 
+    .box {
+        padding-top: 100px;
+    } 
+
+    .inner-container{
+        flex-direction: column;  
+    }
+
+    .box {
+        padding-top: 10px;
+    } 
+}
+
+ /* Very Small devices */
+ @media (max-width: 575.98px) { 
+    .box {
+        text-align: left;
+        
+    }
+}

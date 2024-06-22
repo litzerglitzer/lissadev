@@ -58,3 +58,31 @@
         opacity: 1;
     }
 }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .box {
+        padding-top: 150px;
+    }   
+ }
+
+ /* Very Small devices */
+@media (max-width: 575.98px) { 
+    .box {
+        padding: 40px;
+        padding-top: 0;
+       
+    }
+}
+
+@media (max-width: 1200px) { 
+    .box {
+        padding-top: 10px;
+    } 
+
+    .inner-container{
+        flex-direction: column;  
+    }
+}
+
+

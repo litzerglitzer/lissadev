@@ -7,7 +7,7 @@
 
 .img{ 
     align-self: center;
-    width: 250px;
+    width: 300px;
 }
 
 .font-width{
@@ -33,4 +33,5 @@
     .box {
         padding-top: 150px;
     } 
+    
 }
