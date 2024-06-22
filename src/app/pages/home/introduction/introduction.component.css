@@ -1,9 +1,7 @@
-
-
 .box {
     padding: 100px;
     margin: 0px;
-}
+} 
 
 .img{ 
     align-self: center;
@@ -21,11 +19,6 @@
     .box {
         padding-top: 150px;
     }   
- }
-
- /* Small devices (tablets, 768px and up) */
-@media (min-width: 768) { 
-    
  }
 
 /* Medium devices (desktops, 992px and up) */
