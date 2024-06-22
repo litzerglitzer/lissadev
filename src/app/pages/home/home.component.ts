@@ -15,5 +15,5 @@ import { WorkPhotographyComponent } from "./work-photography/work-photography.co
     imports: [CommonModule, IntroductionComponent, EducationComponent, WorkComponent, WorkDevelopementComponent, NavigationComponent, WorkPhotographyComponent]
 })
 export class HomeComponent {
-
+    
 } 
