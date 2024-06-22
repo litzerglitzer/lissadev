@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'aileron';
-    src: url(https://use.typekit.net/ued3xfo.css);
-}
+
 
 @font-face {
     font-family: 'Cormorant-Italic';
@@ -61,7 +58,7 @@ html, body {
 }
 body { 
     margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    font-family: "Helvetica Neue", sans-serif; 
 }
 
 .main-color{
@@ -171,4 +168,4 @@ body {
     }
 }
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Helvetica Neue", sans-serif; }
