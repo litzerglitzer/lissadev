@@ -14,7 +14,6 @@ export class HeaderComponent {
   isOpen = false;
 
   toggleOverlay() {
-    console.log("Icon clicked");
     this.isOpen = !this.isOpen;
   }
 }

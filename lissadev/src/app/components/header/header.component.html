@@ -19,10 +19,10 @@
     [cdkConnectedOverlayOpen]="isOpen"
     (detach)="isOpen = false">
     <ul class="nav-items font-fadeIn">
-        <a class="main-color" [routerLink]="['/']">
+        <a class="main-color" [routerLink]="['/']" (click)="toggleOverlay()">
             <h3>Home</h3>
         </a>
-        <a class="main-color" [routerLink]="['/resume']">
+        <a class="main-color" [routerLink]="['/resume']" (click)="toggleOverlay()">
             <h3>Lebenslauf</h3>
         </a>
     <br>
@@ -30,8 +30,6 @@
     <h4>CONTACT</h4>
     <p>lissaschwarz&#64;yahoo.de</p>
     <p>+49 1713478652</p>
-      
-
     </ul>
   </ng-template>
   
